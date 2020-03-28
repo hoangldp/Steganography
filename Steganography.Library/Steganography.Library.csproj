@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtractException.cs" />
+    <Compile Include="GrayScaleExtension.cs" />
+    <Compile Include="GrayScaleException.cs" />
+    <Compile Include="ISteganography.cs" />
+    <Compile Include="MaxDiffNeighboring.cs" />
+    <Compile Include="MaxDiffNeighboringExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecretDataExtension.cs" />
+    <Compile Include="SteganographyException.cs" />
+    <Compile Include="SteganographyExtension.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

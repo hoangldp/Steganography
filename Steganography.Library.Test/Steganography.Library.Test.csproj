@@ -44,9 +44,12 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GrayscaleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecretTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
