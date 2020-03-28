@@ -4,7 +4,7 @@ using Steganography.Library.Image;
 
 namespace Steganography.Library.Test
 {
-    public class GrayscaleTest
+    public class GrayScaleTest
     {
         private static readonly object[] _dataCalculateGray =
         {

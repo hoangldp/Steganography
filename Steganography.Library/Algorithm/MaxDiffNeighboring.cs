@@ -177,7 +177,8 @@ namespace Steganography.Library.Algorithm
 
             string extract = result.ToString();
             int subtracting = extract.Length % (lengthStop / 2);
-            if (subtracting > 0) extract = extract.Substring(0, extract.Length - subtracting - _strStop.Length);
+
+            extract = extract.Substring(0, extract.Length - subtracting - _strStop.Length);
             return extract.GetExtract(encoding);
         }
     }
