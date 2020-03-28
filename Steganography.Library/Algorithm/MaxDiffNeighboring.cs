@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using System.Text;
+using Steganography.Library.Exception;
+using Steganography.Library.Image;
 
-namespace Steganography.Library
+namespace Steganography.Library.Algorithm
 {
     public enum ProposedMethod
     {

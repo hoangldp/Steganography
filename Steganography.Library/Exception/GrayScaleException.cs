@@ -1,7 +1,6 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 
-namespace Steganography.Library
+namespace Steganography.Library.Exception
 {
     public enum GrayScaleError
     {
@@ -9,7 +8,7 @@ namespace Steganography.Library
         NotFound
     }
 
-    public class GrayScaleException : Exception
+    public class GrayScaleException : System.Exception
     {
         private Color _color;
         private int _different;

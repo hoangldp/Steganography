@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using Steganography.Library.Exception;
 
-namespace Steganography.Library
+namespace Steganography.Library.Image
 {
     public static class GrayScaleExtension
     {

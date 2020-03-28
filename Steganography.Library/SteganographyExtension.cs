@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using Steganography.Library.Algorithm;
 
 namespace Steganography.Library
 {

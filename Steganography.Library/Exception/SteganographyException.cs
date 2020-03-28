@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Steganography.Library
+﻿namespace Steganography.Library.Exception
 {
     public enum SteganographyError
     {
@@ -8,7 +6,7 @@ namespace Steganography.Library
         NotExtract
     }
 
-    public class SteganographyException : Exception
+    public class SteganographyException : System.Exception
     {
         private SteganographyError _error;
 

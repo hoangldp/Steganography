@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Drawing;
+using Steganography.Library.Image;
 
-namespace Steganography.Library
+namespace Steganography.Library.Algorithm
 {
     public static class MaxDiffNeighboringExtension
     {

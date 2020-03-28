@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using NUnit.Framework;
+using Steganography.Library.Image;
 
 namespace Steganography.Library.Test
 {
